@@ -1,0 +1,6 @@
+version: "3.6"
+services:
+  sakila:
+    image: restsql/mysql-sakila
+    ports:
+      - "3306:3306"
